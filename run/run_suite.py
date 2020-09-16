@@ -9,6 +9,8 @@ from tool.HTMLTestRunner import HTMLTestRunner
 suite = unittest.defaultTestLoader.discover('script')
 path = os.path.dirname(__file__)
 base_path = os.path.dirname(path)
-with open(base_path + '/report/mtx_shop.html', 'wb') as f:
-    HTMLTestRunner(stream=f,title='码同学商场报告',description='码同学商城的登录用例的执行').run(suite)
+# with open(base_path + '/report/mtx_shop.html', 'wb') as f:
+#     HTMLTestRunner(stream=f,title='码同学商场报告',description='码同学商城的登录用例的执行').run(suite)
 
+runner = unittest.TextTestRunner()
+runner.run(suite)

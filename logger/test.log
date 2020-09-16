@@ -1,86 +1,187 @@
-2020-08-02 12:16:03,479 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="236695c4ff89ab6789af88adf50c7fac")>
-2020-08-02 12:16:03,481 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
-2020-08-02 12:16:03,481 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
-2020-08-02 12:16:04,823 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
-2020-08-02 12:16:04,823 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:04,916 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
-2020-08-02 12:16:04,916 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:05,008 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
-2020-08-02 12:16:05,008 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
-2020-08-02 12:16:08,070 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="236695c4ff89ab6789af88adf50c7fac")>
-2020-08-02 12:16:08,070 INFO [root] [base.py (base_input:33] - 正在输入：('id', 'search-input')元素 输入值是: 雪纺连衣裙
-2020-08-02 12:16:08,070 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'search-input')元素,最多等待: 30秒
-2020-08-02 12:16:08,144 INFO [root] [base.py (base_click:28] - 正在点击:('id', 'ai-topsearch')元素
-2020-08-02 12:16:08,145 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'ai-topsearch')元素,最多等待: 30秒
-2020-08-02 12:16:09,062 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
-2020-08-02 12:16:09,581 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'ul.search-list>li:nth-child(1)')元素
-2020-08-02 12:16:09,581 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
-2020-08-02 12:16:09,660 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
-2020-08-02 12:16:09,679 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
-2020-08-02 12:16:13,703 INFO [root] [base.py (base_switch_window:52] - 窗口切换成功
-2020-08-02 12:16:13,704 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="粉色"]')元素
-2020-08-02 12:16:13,704 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="粉色"]')元素,最多等待: 30秒
-2020-08-02 12:16:16,758 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="M"]')元素
-2020-08-02 12:16:16,758 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="M"]')元素,最多等待: 30秒
-2020-08-02 12:16:16,810 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', "button[title='加入购物车']")元素
-2020-08-02 12:16:16,810 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', "button[title='加入购物车']")元素,最多等待: 30秒
-2020-08-02 12:16:17,914 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
-2020-08-02 12:16:17,914 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒
-2020-08-02 12:16:19,033 INFO [root] [base.py (base_click_index:99] - 点击回到首页
-2020-08-02 12:16:19,034 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', "(//*[text()='购物车'])[2]")元素
-2020-08-02 12:16:19,034 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', "(//*[text()='购物车'])[2]")元素,最多等待: 30秒
-2020-08-02 12:16:19,832 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '(//tbody/tr/td[5])[1]/a')元素
-2020-08-02 12:16:19,832 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[5])[1]/a')元素,最多等待: 30秒
-2020-08-02 12:16:19,891 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', "//*[text()='确定']")元素
-2020-08-02 12:16:19,891 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', "//*[text()='确定']")元素,最多等待: 30秒
-2020-08-02 12:16:22,961 INFO [root] [base.py (base_if_is_exist:87] - 判断('xpath', '(//tbody/tr/td[5])[1]/a')元素是否存在
-2020-08-02 12:16:22,961 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[5])[1]/a')元素,最多等待: 30秒
-2020-08-02 12:16:22,968 INFO [root] [base.py (base_if_is_exist:89] - ('xpath', '(//tbody/tr/td[5])[1]/a')元素是存在的
-2020-08-02 12:16:22,968 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
-2020-08-02 12:16:22,969 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒
-2020-08-02 12:16:23,815 INFO [root] [base.py (base_click_index:99] - 点击回到首页
-2020-08-02 12:16:40,670 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="af4a7b5d322a7c72d7c1a3d60816e3aa")>
-2020-08-02 12:16:40,671 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
-2020-08-02 12:16:40,671 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
-2020-08-02 12:16:41,876 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
-2020-08-02 12:16:41,876 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:41,963 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao1
-2020-08-02 12:16:41,963 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:42,060 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
-2020-08-02 12:16:42,060 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
-2020-08-02 12:16:42,133 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
-2020-08-02 12:16:42,133 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
-2020-08-02 12:16:43,384 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: beihe
-2020-08-02 12:16:43,384 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:43,458 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: beihe
-2020-08-02 12:16:43,458 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:43,536 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
-2020-08-02 12:16:43,536 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
-2020-08-02 12:16:43,597 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
-2020-08-02 12:16:43,597 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
-2020-08-02 12:16:44,448 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao1
-2020-08-02 12:16:44,448 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:44,527 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao6
-2020-08-02 12:16:44,527 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:16:44,608 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
-2020-08-02 12:16:44,608 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
-2020-08-02 12:17:01,370 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="6975b07d8313ed9383c0374c4808c86f")>
-2020-08-02 12:17:01,370 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
-2020-08-02 12:17:01,370 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
-2020-08-02 12:17:02,296 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
-2020-08-02 12:17:02,296 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:17:02,383 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
-2020-08-02 12:17:02,383 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
-2020-08-02 12:17:02,472 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
-2020-08-02 12:17:02,472 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
-2020-08-02 12:17:05,538 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="6975b07d8313ed9383c0374c4808c86f")>
-2020-08-02 12:17:05,539 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.am-icon-shopping-cart')元素
-2020-08-02 12:17:05,539 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.am-icon-shopping-cart')元素,最多等待: 30秒
-2020-08-02 12:17:06,719 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '(//tbody/tr/td[1])[1]/label/span/i[2]')元素
-2020-08-02 12:17:06,719 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[1])[1]/label/span/i[2]')元素,最多等待: 30秒
-2020-08-02 12:17:06,782 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'button.separate-submit')元素
-2020-08-02 12:17:06,782 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'button.separate-submit')元素,最多等待: 30秒
-2020-08-02 12:17:08,055 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.payment-list>li:nth-child(1)')元素
-2020-08-02 12:17:08,055 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.payment-list>li:nth-child(1)')元素,最多等待: 30秒
-2020-08-02 12:17:08,916 INFO [root] [base.py (base_click:28] - 正在点击:('class name', 'btn-go')元素
-2020-08-02 12:17:08,917 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('class name', 'btn-go')元素,最多等待: 30秒
+2020-09-16 11:49:25,063 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="ad8e1de5546f2be124d1b1cc821630fc")>
+2020-09-16 11:49:25,065 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:49:25,065 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:49:31,309 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:49:31,310 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:49:31,379 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:49:31,379 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:49:31,449 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:49:31,449 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:49:39,492 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="ad8e1de5546f2be124d1b1cc821630fc")>
+2020-09-16 11:49:39,492 INFO [root] [base.py (base_input:33] - 正在输入：('id', 'search-input')元素 输入值是: 雪纺连衣裙
+2020-09-16 11:49:39,492 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'search-input')元素,最多等待: 30秒
+2020-09-16 11:49:39,561 INFO [root] [base.py (base_click:28] - 正在点击:('id', 'ai-topsearch')元素
+2020-09-16 11:49:39,561 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'ai-topsearch')元素,最多等待: 30秒
+2020-09-16 11:49:44,604 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 11:50:19,669 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="33a326d729edcd11379b4e3013f33891")>
+2020-09-16 11:50:19,669 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:50:19,669 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:50:20,801 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:50:20,801 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:50:20,911 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:50:20,911 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:50:21,018 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:50:21,019 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:50:24,088 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="33a326d729edcd11379b4e3013f33891")>
+2020-09-16 11:50:24,088 INFO [root] [base.py (base_input:33] - 正在输入：('id', 'search-input')元素 输入值是: 雪纺连衣裙
+2020-09-16 11:50:24,088 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'search-input')元素,最多等待: 30秒
+2020-09-16 11:50:24,346 INFO [root] [base.py (base_click:28] - 正在点击:('id', 'ai-topsearch')元素
+2020-09-16 11:50:24,346 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'ai-topsearch')元素,最多等待: 30秒
+2020-09-16 11:50:25,513 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 11:50:26,035 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'ul.search-list>li:nth-child(1)')元素
+2020-09-16 11:50:26,035 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 11:50:26,118 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
+2020-09-16 11:50:26,142 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
+2020-09-16 11:50:30,179 INFO [root] [base.py (base_switch_window:52] - 窗口切换成功
+2020-09-16 11:50:30,179 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="粉色"]')元素
+2020-09-16 11:50:30,180 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="粉色"]')元素,最多等待: 30秒
+2020-09-16 11:50:33,229 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="M"]')元素
+2020-09-16 11:50:33,229 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="M"]')元素,最多等待: 30秒
+2020-09-16 11:50:33,275 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', "button[title='加入购物车']")元素
+2020-09-16 11:50:33,275 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', "button[title='加入购物车']")元素,最多等待: 30秒
+2020-09-16 11:50:34,389 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-09-16 11:50:34,389 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒
+2020-09-16 11:50:35,499 INFO [root] [base.py (base_click_index:99] - 点击回到首页
+2020-09-16 11:50:35,500 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', "(//*[text()='购物车'])[2]")元素
+2020-09-16 11:50:35,500 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', "(//*[text()='购物车'])[2]")元素,最多等待: 30秒
+2020-09-16 11:50:36,891 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '(//tbody/tr/td[5])[1]/a')元素
+2020-09-16 11:50:36,891 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[5])[1]/a')元素,最多等待: 30秒
+2020-09-16 11:50:36,950 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', "//*[text()='确定']")元素
+2020-09-16 11:50:36,950 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', "//*[text()='确定']")元素,最多等待: 30秒
+2020-09-16 11:50:40,040 INFO [root] [base.py (base_if_is_exist:87] - 判断('xpath', '(//tbody/tr/td[5])[1]/a')元素是否存在
+2020-09-16 11:50:40,040 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[5])[1]/a')元素,最多等待: 30秒
+2020-09-16 11:50:40,050 INFO [root] [base.py (base_if_is_exist:89] - ('xpath', '(//tbody/tr/td[5])[1]/a')元素是存在的
+2020-09-16 11:50:40,050 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-09-16 11:50:40,050 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒
+2020-09-16 11:50:41,159 INFO [root] [base.py (base_click_index:99] - 点击回到首页
+2020-09-16 11:50:58,648 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="c75e95e5fc148981e6384b0db15f4147")>
+2020-09-16 11:50:58,648 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:50:58,648 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:51:00,073 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:51:00,073 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:00,168 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao1
+2020-09-16 11:51:00,168 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:00,269 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:51:00,269 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:51:00,375 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:51:00,376 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:51:02,216 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: beihe
+2020-09-16 11:51:02,217 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:02,297 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: beihe
+2020-09-16 11:51:02,297 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:02,385 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:51:02,385 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:51:02,456 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:51:02,456 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:51:03,963 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao1
+2020-09-16 11:51:03,963 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:04,051 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao6
+2020-09-16 11:51:04,051 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:04,134 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:51:04,134 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:51:21,722 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="0d9151a13b294350b00ca85857ea6089")>
+2020-09-16 11:51:21,722 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:51:21,722 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:51:22,910 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:51:22,910 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:23,001 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:51:23,001 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:51:23,100 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:51:23,100 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:51:26,216 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="0d9151a13b294350b00ca85857ea6089")>
+2020-09-16 11:51:26,216 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.am-icon-shopping-cart')元素
+2020-09-16 11:51:26,216 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.am-icon-shopping-cart')元素,最多等待: 30秒
+2020-09-16 11:51:27,320 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '(//tbody/tr/td[1])[1]/label/span/i[2]')元素
+2020-09-16 11:51:27,320 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[1])[1]/label/span/i[2]')元素,最多等待: 30秒
+2020-09-16 11:51:27,381 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'button.separate-submit')元素
+2020-09-16 11:51:27,381 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'button.separate-submit')元素,最多等待: 30秒
+2020-09-16 11:51:28,879 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.payment-list>li:nth-child(1)')元素
+2020-09-16 11:51:28,880 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.payment-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 11:51:29,943 INFO [root] [base.py (base_click:28] - 正在点击:('class name', 'btn-go')元素
+2020-09-16 11:51:29,943 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('class name', 'btn-go')元素,最多等待: 30秒
+2020-09-16 11:52:41,920 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="82717de04043eda3cb6149c36854e0ea")>
+2020-09-16 11:52:41,920 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:52:41,920 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:52:42,896 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:52:42,896 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:52:43,005 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:52:43,005 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:52:43,124 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:52:43,124 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:52:46,197 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="82717de04043eda3cb6149c36854e0ea")>
+2020-09-16 11:52:46,197 INFO [root] [base.py (base_input:33] - 正在输入：('id', 'search-input')元素 输入值是: 雪纺连衣裙
+2020-09-16 11:52:46,197 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'search-input')元素,最多等待: 30秒
+2020-09-16 11:52:46,296 INFO [root] [base.py (base_click:28] - 正在点击:('id', 'ai-topsearch')元素
+2020-09-16 11:52:46,296 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'ai-topsearch')元素,最多等待: 30秒
+2020-09-16 11:52:47,790 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 11:52:48,314 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'ul.search-list>li:nth-child(1)')元素
+2020-09-16 11:52:48,314 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 11:52:48,396 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
+2020-09-16 11:52:48,424 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
+2020-09-16 11:52:52,464 INFO [root] [base.py (base_switch_window:52] - 窗口切换成功
+2020-09-16 11:52:52,464 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="粉色"]')元素
+2020-09-16 11:52:52,464 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="粉色"]')元素,最多等待: 30秒
+2020-09-16 11:52:55,516 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="M"]')元素
+2020-09-16 11:52:55,516 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="M"]')元素,最多等待: 30秒
+2020-09-16 11:52:55,559 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', "button[title='加入购物车']")元素
+2020-09-16 11:52:55,559 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', "button[title='加入购物车']")元素,最多等待: 30秒
+2020-09-16 11:52:56,675 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-09-16 11:52:56,675 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒
+2020-09-16 11:52:57,504 INFO [root] [base.py (base_click_index:99] - 点击回到首页
+2020-09-16 11:52:57,504 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', "(//*[text()='购物车'])[2]")元素
+2020-09-16 11:52:57,504 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', "(//*[text()='购物车'])[2]")元素,最多等待: 30秒
+2020-09-16 11:52:58,499 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '(//tbody/tr/td[5])[1]/a')元素
+2020-09-16 11:52:58,499 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[5])[1]/a')元素,最多等待: 30秒
+2020-09-16 11:52:58,573 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', "//*[text()='确定']")元素
+2020-09-16 11:52:58,573 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', "//*[text()='确定']")元素,最多等待: 30秒
+2020-09-16 11:53:01,626 INFO [root] [base.py (base_if_is_exist:87] - 判断('xpath', '(//tbody/tr/td[5])[1]/a')元素是否存在
+2020-09-16 11:53:01,626 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[5])[1]/a')元素,最多等待: 30秒
+2020-09-16 11:53:01,637 INFO [root] [base.py (base_if_is_exist:89] - ('xpath', '(//tbody/tr/td[5])[1]/a')元素是存在的
+2020-09-16 11:53:01,638 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-09-16 11:53:01,638 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒
+2020-09-16 11:53:02,495 INFO [root] [base.py (base_click_index:99] - 点击回到首页
+2020-09-16 11:53:19,383 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="7444efe48a3eacd81e0f913bca9d0cab")>
+2020-09-16 11:53:19,384 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:53:19,384 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:53:20,352 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:53:20,352 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:20,450 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao1
+2020-09-16 11:53:20,450 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:20,556 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:53:20,556 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:53:20,657 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:53:20,657 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:53:21,552 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: beihe
+2020-09-16 11:53:21,552 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:21,630 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: beihe
+2020-09-16 11:53:21,630 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:21,708 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:53:21,708 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:53:21,769 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:53:21,770 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:53:22,671 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao1
+2020-09-16 11:53:22,671 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:22,759 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao6
+2020-09-16 11:53:22,759 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:22,857 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:53:22,857 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:53:40,016 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="7faaf96b8cc1169f8ff4b2e42aa5339b")>
+2020-09-16 11:53:40,016 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 11:53:40,016 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 11:53:41,019 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:53:41,019 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:41,101 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 11:53:41,101 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 11:53:41,214 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 11:53:41,214 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 11:53:44,319 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="7faaf96b8cc1169f8ff4b2e42aa5339b")>
+2020-09-16 11:53:44,319 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.am-icon-shopping-cart')元素
+2020-09-16 11:53:44,319 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.am-icon-shopping-cart')元素,最多等待: 30秒
+2020-09-16 11:53:45,490 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '(//tbody/tr/td[1])[1]/label/span/i[2]')元素
+2020-09-16 11:53:45,490 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '(//tbody/tr/td[1])[1]/label/span/i[2]')元素,最多等待: 30秒
+2020-09-16 11:53:45,550 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'button.separate-submit')元素
+2020-09-16 11:53:45,550 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'button.separate-submit')元素,最多等待: 30秒
+2020-09-16 11:53:46,703 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.payment-list>li:nth-child(1)')元素
+2020-09-16 11:53:46,704 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.payment-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 11:53:47,610 INFO [root] [base.py (base_click:28] - 正在点击:('class name', 'btn-go')元素
+2020-09-16 11:53:47,610 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('class name', 'btn-go')元素,最多等待: 30秒

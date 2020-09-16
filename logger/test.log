@@ -242,3 +242,36 @@
 2020-09-16 13:30:32,206 INFO [root] [base.py (base_click:28] - 正在点击:('class name', 'btn-go')元素
 2020-09-16 13:30:32,206 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('class name', 'btn-go')元素,最多等待: 30秒
 2020-09-16 13:30:35,314 INFO [root] [base.py (base_get_image:65] - 开始截图====
+2020-09-16 13:54:16,001 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="afdca9b7634c55ca318420edd9fe5124")>
+2020-09-16 13:54:16,001 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-09-16 13:54:16,002 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待: 30秒
+2020-09-16 13:54:17,177 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 13:54:17,177 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 13:54:17,253 INFO [root] [base.py (base_input:33] - 正在输入：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素 输入值是: yaoyao
+2020-09-16 13:54:17,254 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待: 30秒
+2020-09-16 13:54:17,341 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-09-16 13:54:17,341 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//button[text()="登录"]')元素,最多等待: 30秒
+2020-09-16 13:54:20,414 INFO [root] [base.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="afdca9b7634c55ca318420edd9fe5124")>
+2020-09-16 13:54:20,414 INFO [root] [base.py (base_input:33] - 正在输入：('id', 'search-input')元素 输入值是: 雪纺连衣裙
+2020-09-16 13:54:20,414 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'search-input')元素,最多等待: 30秒
+2020-09-16 13:54:20,503 INFO [root] [base.py (base_click:28] - 正在点击:('id', 'ai-topsearch')元素
+2020-09-16 13:54:20,503 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('id', 'ai-topsearch')元素,最多等待: 30秒
+2020-09-16 13:54:21,459 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 13:54:21,997 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'ul.search-list>li:nth-child(1)')元素
+2020-09-16 13:54:21,997 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+2020-09-16 13:54:22,087 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
+2020-09-16 13:54:22,118 INFO [root] [base.py (base_switch_window:49] - 开始切换窗口
+2020-09-16 13:54:26,150 INFO [root] [base.py (base_switch_window:52] - 窗口切换成功
+2020-09-16 13:54:26,150 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="粉色"]')元素
+2020-09-16 13:54:26,150 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="粉色"]')元素,最多等待: 30秒
+2020-09-16 13:54:34,196 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', 'li[data-value="M"]')元素
+2020-09-16 13:54:34,196 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', 'li[data-value="M"]')元素,最多等待: 30秒
+2020-09-16 13:54:39,245 INFO [root] [base.py (base_click:28] - 正在点击:('css selector', "button[title='加入购物车']")元素
+2020-09-16 13:54:39,245 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('css selector', "button[title='加入购物车']")元素,最多等待: 30秒
+2020-09-16 13:54:45,354 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-09-16 13:54:45,354 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒
+2020-09-16 13:54:50,403 INFO [root] [base.py (base_click_index:99] - 点击回到首页
+2020-09-16 13:54:50,405 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', "(//*[text()='购物车'])[2]")元素
+2020-09-16 13:54:50,405 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', "(//*[text()='购物车'])[2]")元素,最多等待: 30秒
+2020-09-16 13:55:23,408 INFO [root] [base.py (base_click:28] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-09-16 13:55:23,408 INFO [root] [base.py (base_find_element:21] - 正在查找元素：('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待: 30秒

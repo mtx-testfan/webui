@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>码同学商场报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-09-16 13:18:08</p>
-<p class='attribute'><strong>Duration:</strong> 0:02:59.774317</p>
-<p class='attribute'><strong>Status:</strong> Pass 4 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-09-16 14:39:54</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:29.159980</p>
+<p class='attribute'><strong>Status:</strong> Pass 6</p>
 
 <p class='description'>码同学商城的登录用例的执行</p>
 </div>
@@ -221,121 +221,27 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>script.test_cart.TestCart</td>
+<tr class='passClass'>
+    <td>test_cart.TestCart</td>
+    <td>2</td>
     <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
     <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_add_cart</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: Traceback (most recent call last):
-  File "C:\Users\suela\Desktop\lesson6_3\script\test_cart.py", line 33, in test_add_cart
-    self.cart.page_add('雪纺连衣裙')
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 59, in page_add
-    self.page_click_goods()
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 32, in page_click_goods
-    self.base_find_element(page.cart_into_detail)
-  File "C:\Users\suela\Desktop\lesson6_3\base1\base.py", line 23, in base_find_element
-    el = WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll_frequency).until(lambda x:x.find_element(*loc))
-  File "D:\conda\envs\auto\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Traceback (most recent call last):
-  File "C:\Users\suela\Desktop\lesson6_3\script\test_cart.py", line 33, in test_add_cart
-    self.cart.page_add('雪纺连衣裙')
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 59, in page_add
-    self.page_click_goods()
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 32, in page_click_goods
-    self.base_find_element(page.cart_into_detail)
-  File "C:\Users\suela\Desktop\lesson6_3\base1\base.py", line 23, in base_find_element
-    el = WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll_frequency).until(lambda x:x.find_element(*loc))
-  File "D:\conda\envs\auto\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add_cart</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_delete</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        error</a>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: Traceback (most recent call last):
-  File "C:\Users\suela\Desktop\lesson6_3\script\test_cart.py", line 47, in test_delete
-    self.cart.page_delete()
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 48, in page_delete
-    self.page_click_delete_button()
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 13, in page_click_delete_button
-    self.base_click(page.cart_delete_button)
-  File "C:\Users\suela\Desktop\lesson6_3\base1\base.py", line 29, in base_click
-    self.base_find_element(loc).click()
-  File "C:\Users\suela\Desktop\lesson6_3\base1\base.py", line 23, in base_find_element
-    el = WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll_frequency).until(lambda x:x.find_element(*loc))
-  File "D:\conda\envs\auto\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Traceback (most recent call last):
-  File "C:\Users\suela\Desktop\lesson6_3\script\test_cart.py", line 47, in test_delete
-    self.cart.page_delete()
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 48, in page_delete
-    self.page_click_delete_button()
-  File "C:\Users\suela\Desktop\lesson6_3\page\page_cart.py", line 13, in page_click_delete_button
-    self.base_click(page.cart_delete_button)
-  File "C:\Users\suela\Desktop\lesson6_3\base1\base.py", line 29, in base_click
-    self.base_find_element(loc).click()
-  File "C:\Users\suela\Desktop\lesson6_3\base1\base.py", line 23, in base_find_element
-    el = WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll_frequency).until(lambda x:x.find_element(*loc))
-  File "D:\conda\envs\auto\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_delete</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr class='passClass'>
-    <td>script.test_login.Login</td>
+    <td>test_login.Login</td>
     <td>3</td>
     <td>3</td>
     <td>0</td>
@@ -359,7 +265,7 @@ selenium.common.exceptions.TimeoutException: Message:
 </tr>
 
 <tr class='passClass'>
-    <td>script.test_order.Order</td>
+    <td>test_order.Order</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -375,9 +281,9 @@ selenium.common.exceptions.TimeoutException: Message:
 <tr id='total_row'>
     <td>Total</td>
     <td>6</td>
-    <td>4</td>
+    <td>6</td>
     <td>0</td>
-    <td>2</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

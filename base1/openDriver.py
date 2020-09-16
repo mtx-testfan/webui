@@ -34,8 +34,7 @@ class OpenDriver(object):
             driver = webdriver.Firefox()
             return driver
         elif browser == 'chrome' or browser == 'ch':
-            # driver = webdriver.Chrome(R"D:\chromedriver.exe")
-            return webdriver.Chrome(r'../tool/chromedriver.exe')
+            return webdriver.Chrome()
         elif browser == 'ie' or browser == 'internet explorer':
             return webdriver.Ie()
         elif browser == '360':

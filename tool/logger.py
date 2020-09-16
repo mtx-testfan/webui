@@ -1,5 +1,6 @@
 
 import logging.handlers
+import os
 
 
 class GetLooger:
@@ -18,8 +19,10 @@ class GetLooger:
             fmt = "%(asctime)s %(levelname)s [%(name)s] [%(filename)s (%(funcName)s:%(lineno)d] - %(message)s"
             # 2.2 获取格式器 参数  具体要输出什么样的样式
             fm = logging.Formatter(fmt)
+            path = os.path.dirname(__file__)
+            base_path = os.path.dirname(path)
             # 3.获取处理器  按时间切割的文件处理器工作中用midnight  ,backupCount=3  除了原件，只保存最新的三个
-            tf = logging.handlers.TimedRotatingFileHandler(filename='../logger/test.log',
+            tf = logging.handlers.TimedRotatingFileHandler(filename=base_path + '/logger/test.log',
                                                       when='H',
                                                       interval=1,
                                                       backupCount=3,
